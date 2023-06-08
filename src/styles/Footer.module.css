@@ -1,0 +1,40 @@
+.footerContainer {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    background-color: #e7eafd;
+}
+.footerLeft {
+    float: left;
+}
+.footerLeft p {
+    padding: 40px;
+    margin-left: 100px;
+}
+.footerLeft a {
+    color: #f75023;
+}
+.footerLeft p span:hover {
+    color: #111111;
+    cursor: pointer;
+}
+.footerRight {
+    float: right;
+}
+.footerRight ul {
+    position: absolute;
+    right: 0;
+    margin-right: 100px;
+}
+.footerRight li {
+    display: inline-block;
+    padding: 30px;
+    font-style: normal;
+    font-size: 17px;
+}
+
+.footerRight p:hover {
+    color: #f75023;
+    cursor: pointer;
+}

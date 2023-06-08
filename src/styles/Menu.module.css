@@ -1,0 +1,11 @@
+.portfolioMenu {
+    width: 100%;
+    text-align: center;
+}
+.portfolioMenu li {
+    display: inline-block;
+    padding: 0 50px;
+    text-align: center;
+    font-style: normal;
+    font-weight: 500;
+}

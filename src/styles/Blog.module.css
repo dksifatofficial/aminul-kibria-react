@@ -1,0 +1,15 @@
+.blogContainer {
+    width: 100%;
+    margin-top: 130px;
+    position: relative;
+}
+.img10 {
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
+.img11 {
+    position: absolute;
+    right: -66px;
+    top: -170px;
+}

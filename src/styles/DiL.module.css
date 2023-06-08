@@ -1,0 +1,22 @@
+.dilContainer {
+    width: 100%;
+    padding: 10rem 3rem;
+}
+.dilLeft {
+    width: 55%;
+    float: left;
+}
+.dilLeft h3 {
+    color: #f75023;
+}
+.dilRight {
+    width: 45%;
+    float: left;
+    position: relative;
+}
+.dilRight .dilImg {
+    
+    height: 35rem;
+    position: absolute;
+    right: 0;
+}

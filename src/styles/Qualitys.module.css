@@ -1,0 +1,16 @@
+.qualityContainer {
+    width: 100%;
+    display: inline-block;
+    padding: 5rem 0;
+}
+.qualityContainerMidAll {
+    width: 33.33%;
+    float: left;
+    padding: 2.5rem;
+    text-align: center;
+    font-style: normal;
+}
+.qualityContainerMidAll .QImg {
+    width: 6rem;
+    height: 6rem;
+}

@@ -1,0 +1,15 @@
+.contactContainer {
+    width: 100%;
+    margin-top: 130px;
+    position: relative;
+}
+.img1 {
+    position: absolute;
+    left: -70px;
+    top: -60px;
+}
+.img2 {
+    position: absolute;
+    right: -65px;
+    bottom: 0;
+}

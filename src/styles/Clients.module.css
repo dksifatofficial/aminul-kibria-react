@@ -1,0 +1,26 @@
+.comment {
+    width: 700px;
+    display: inline-block;
+    height: 300px;
+    position: relative;
+    padding: 20px;
+    margin: 0 20px ;
+}
+.icon {
+    text-align: center;
+    width: 100%;
+    font-size: 70px;
+    color: #f75023;
+}
+.comment p {
+    text-align: center;
+    font-style: italic;
+    font-weight: 500;
+}
+.auther {
+    height: 75px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+}

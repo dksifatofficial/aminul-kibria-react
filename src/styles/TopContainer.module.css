@@ -1,0 +1,74 @@
+.container {
+    width: 100%;
+}
+.bannerLeft {
+    width: 50%;
+    padding: 7rem 4rem 0 4rem;
+    float: left;
+    margin-top: 2rem;
+}
+.img2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -111;
+    opacity: 0.5;
+}
+.img3 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -111;
+    opacity: 0.5;
+}
+.bannerLeft h3 {
+    color: #f75023;
+    font-weight: 500;
+    padding: 0;
+}
+.bannerLeft h1 {
+    font-family:Gabriola;
+    font-weight: bold;
+    color: #000000;
+    font-size:5rem;
+    padding: 0;
+}
+.bannerLeft h4 .cd {
+    color: #30c367;
+}
+.bannerLeft h4 .bd {
+    color: #8e78f0;
+}
+.headerSocial {
+    display: flex;
+    flex-wrap: wrap;
+    position:relative;
+}
+.bannerRight {
+    margin-top: 5rem;
+    background: url(../assets/image/mm1.png);
+    background-position: 5rem 2rem;
+    background-repeat: no-repeat;
+    background-size: 350px;
+    width: 45%;
+    float: left;
+    padding: 2rem 1rem;
+    position: relative;
+}
+.logoPic {
+    height: 400px;
+    width: 400px;
+    position: relative;
+    animation-name: logoPicture;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    animation-duration: alternate-reverse;
+    animation-timing-function: linear;
+
+}
+@keyframes logoPicture {
+    0%    {left: 50px; top: 50px;}
+    50%   {left: 50px; top: 80px;}
+    100%   {left: 50px; top: 50px;}
+    
+}

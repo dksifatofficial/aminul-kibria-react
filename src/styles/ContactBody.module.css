@@ -1,0 +1,60 @@
+.contactBody {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.left {
+  width: 49.99%;
+  float: left;
+  padding: 50px;
+}
+.right {
+  width: 49.99%;
+  float: right;
+  padding: 50px;
+}
+
+.leftSpan {
+  width: 100%;
+  position: relative;
+  padding: 10px;
+}
+.contactLogo {
+  width: 90px;
+  height: 90px;
+  border-radius: 50%;
+  position: relative;
+}
+.logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.addressLogo {
+  background-color: rgba(255, 0, 0, 0.13);
+}
+.emailLogo {
+  background-color: rgba(8, 216, 253, 0.13);
+}
+.phoneLogo {
+  background-color: rgba(21, 255, 0, 0.356);
+}
+
+.contactText {
+  width: 70%;
+  position: absolute;
+  top: 15px;
+  left: 120px;
+  line-height: 0;
+}
+.contactText h3 {
+  color: #333333;
+}
+.contactEmail:hover {
+  color: #f75023;
+  cursor: pointer;
+}
