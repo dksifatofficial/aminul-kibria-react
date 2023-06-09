@@ -1,14 +1,20 @@
-.socialIcon ul {
+
+/* .socialIcon ul {
     position: absolute;
     margin: 0;
     top: 50%;
     left: 50%;
     transform: translate(-40%, -50%);
+} */
+.socialIcon ul {
+    width: 100%;
+    display: flex;
+    margin-left: -1.1rem;
+    justify-content: space-between;
 }
 .socialIcon li { 
     display: inline-block;
     font-size: 18px;
-    padding: 0 1rem;
 }
 .socialIcon li a {
     color: rgb(3, 104, 95);

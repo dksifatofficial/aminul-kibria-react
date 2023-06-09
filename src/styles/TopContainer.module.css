@@ -1,11 +1,13 @@
 .container {
     width: 100%;
+    height: auto;
+    /* margin-left: -1rem; */
 }
 .bannerLeft {
-    width: 50%;
-    padding: 7rem 4rem 0 4rem;
+    width: 100%;
     float: left;
-    margin-top: 2rem;
+    margin-top: 6rem;
+    text-align: center;
 }
 .img2 {
     position: absolute;
@@ -13,6 +15,7 @@
     right: 0;
     z-index: -111;
     opacity: 0.5;
+    display: none;
 }
 .img3 {
     position: absolute;
@@ -20,6 +23,7 @@
     left: 0;
     z-index: -111;
     opacity: 0.5;
+    display: none;
 }
 .bannerLeft h3 {
     color: #f75023;
@@ -39,10 +43,13 @@
 .bannerLeft h4 .bd {
     color: #8e78f0;
 }
+.bannerLeft p {
+    padding: 0 7rem;
+}
 .headerSocial {
-    display: flex;
-    flex-wrap: wrap;
-    position:relative;
+    width: 100%;
+    display: grid;
+    justify-content: center;
 }
 .bannerRight {
     margin-top: 5rem;
@@ -50,10 +57,11 @@
     background-position: 5rem 2rem;
     background-repeat: no-repeat;
     background-size: 350px;
-    width: 45%;
+    width: 50%;
     float: left;
     padding: 2rem 1rem;
     position: relative;
+    display: none;
 }
 .logoPic {
     height: 400px;
@@ -64,11 +72,46 @@
     animation-iteration-count: infinite;
     animation-duration: alternate-reverse;
     animation-timing-function: linear;
-
+    display: none;
 }
 @keyframes logoPicture {
     0%    {left: 50px; top: 50px;}
     50%   {left: 50px; top: 80px;}
     100%   {left: 50px; top: 50px;}
     
+}
+
+
+@media (min-width: 1024px) {
+    .container {
+        width: 100%;
+        padding: 0;
+    }
+    .bannerLeft {
+        width: 50%;
+        padding: 7rem 4rem 0 4rem;
+        float: left;
+        margin-top: 2rem;
+    }
+    .bannerLeft p {
+        padding: 0;
+    }
+    .img2 {
+        display: block;
+    }
+    .img3 {
+        display: block;
+    }
+    .bannerRight {
+        display: block;
+    }
+    .logoPic {
+        display: block;
+    }
+}
+
+@media (min-width: 1280px) {
+    .bannerLeft p {
+        padding: 0 4rem;
+    }
 }

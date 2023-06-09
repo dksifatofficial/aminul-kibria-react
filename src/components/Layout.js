@@ -1,13 +1,13 @@
 import classes from "../styles/Layout.module.css";
 import Cursor from "./Cursor";
-import TotopButton from "./TotopButton";
 import Footer from "./Footer";
+import TotopButton from "./TotopButton";
 
 function Layout({ children }) {
   return (
     <div>
       <main className={classes.main}>
-        <div className={classes.container}>{children}</div>
+        {children}
       </main>
       <Footer />
       <TotopButton />

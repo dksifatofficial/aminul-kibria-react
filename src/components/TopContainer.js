@@ -18,7 +18,7 @@ function TopContainer() {
           <span className={classes.bd}>Programmer</span>
         </h4>
         <p>
-          I'm also creative designer, and I'm very passionate <br /> and
+          I'm also creative designer, and I'm very passionate and
           dedicated to my work.
         </p>
         <div className={classes.headerSocial}>
@@ -27,8 +27,9 @@ function TopContainer() {
               <span>About Me</span>
             </ShutterUpButton>
           </a>
-          <Socialicon />
-          
+          <div>
+            <Socialicon />
+          </div>
         </div>
       </div>
       <div className={classes.bannerRight}>
