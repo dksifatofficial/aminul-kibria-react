@@ -3,11 +3,11 @@ import image2 from "../assets/icon/icon_17.png";
 import image3 from "../assets/icon/icon_18.png";
 import classes from "../styles/Qualitys.module.css";
 
-function Qualitys() {
+function quality() {
   return (
-    <div className={classes.qualityContainer}>
-
-        <div className={classes.qualityContainerMidAll}>
+    <div className={classes.container}>
+      <div className={classes.qualitys}>
+        <div className={classes.quality}>
           <img className={classes.QImg} src={image1} alt="logo" />
           <h3>Pixel Perfect</h3>
           <p>
@@ -16,7 +16,7 @@ function Qualitys() {
           </p>
         </div>
 
-        <div className={classes.qualityContainerMidAll}>
+        <div className={classes.quality}>
           <img className={classes.QImg} src={image2} alt="logo" />
           <h3>High Quality</h3>
           <p>
@@ -25,7 +25,7 @@ function Qualitys() {
           </p>
         </div>
 
-        <div className={classes.qualityContainerMidAll}>
+        <div className={classes.quality}>
           <img className={classes.QImg} src={image3} alt="logo" />
           <h3>Awesome Idea</h3>
           <p>
@@ -33,8 +33,9 @@ function Qualitys() {
             and originality to every project.
           </p>
         </div>
+        </div>
     </div>
   );
 }
 
-export default Qualitys;
+export default quality;

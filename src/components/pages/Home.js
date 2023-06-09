@@ -5,7 +5,7 @@
 // import Map from "../Map";
 // import Newsletter from "../Newsletter";
 // import Portfolio from "../Portfolio";
-// import Qualitys from "../Qualitys";
+import Qualitys from "../Qualitys";
 // import Services from "../Services";
 // import TestimonialContainer from "../TestimonialContainer";
 import TopContainer from "../TopContainer";
@@ -16,7 +16,7 @@ function Home() {
     <div>
       {/* <TopNav /> */}
       <TopContainer />
-      {/* <Qualitys /> */}
+      <Qualitys />
       {/* <AboutMe /> */}
       {/* <Portfolio /> */}
       {/* <TestimonialContainer /> */}

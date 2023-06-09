@@ -1,16 +1,38 @@
-.qualityContainer {
-    width: 100%;
-    display: inline-block;
-    padding: 5rem 0;
+.container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  padding: 5rem 6rem 2rem;
+  margin-left: -0.5rem;
 }
-.qualityContainerMidAll {
-    width: 33.33%;
-    float: left;
-    padding: 2.5rem;
-    text-align: center;
-    font-style: normal;
+.qualitys {
+  width: 100%;
+  display: grid;
+  padding: 3rem 0;
 }
-.qualityContainerMidAll .QImg {
-    width: 6rem;
-    height: 6rem;
+.quality {
+  width: 100%;
+  text-align: center;
+  font-style: normal;
+}
+.qualitys .QImg {
+  width: 6rem;
+  height: 6rem;
+}
+
+@media (min-width: 1024px) {
+  .qualitys {
+    display: flex;
+    justify-content: space-between;
+    padding: 5rem 0 0;
+  }
+  .quality {
+    width: 30%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .qualitys {
+    padding: 7rem 0 0 0;
+  }
 }
