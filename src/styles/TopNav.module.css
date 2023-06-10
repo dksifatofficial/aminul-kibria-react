@@ -10,10 +10,6 @@
     width: 100%;
     text-align: center;
 }
-.scrolled {
-    background-color: #ffffff;
-    box-shadow: 1px 1px 5px rgba(8, 3, 3, 0.11);
-}
 .topMenu {
     width: 90%;
     text-align: center;
@@ -25,7 +21,7 @@
     position: absolute;
     right: 50%;
     top: 50%;
-    transform: translate(50%, 10%);
+    transform: translate(50%, 0%);
 }
 .topMenu ul {
     margin: 0;

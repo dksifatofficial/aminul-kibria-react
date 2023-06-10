@@ -10,7 +10,7 @@ body {
   background-color: #f7fbfd;
   width: 100%;
   transition: transform 0.5s ease;
-  /* margin: -2rem 0 0 0; */
+  margin: -2rem 0 0 0;
   line-height: 1.80857;
   font-weight: normal;
   font-size: 14px;
@@ -89,7 +89,8 @@ h6 a {
 }
 /*--End Basic section --*/
 .scrolled {
-  background-color: #ffffff;
+  background-color: #ffffff7e;
+  backdrop-filter: blur(10px);
   box-shadow: 1px 1px 5px rgba(8, 3, 3, 0.11);
 }
 .layout {
