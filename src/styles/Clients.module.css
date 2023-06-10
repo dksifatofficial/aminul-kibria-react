@@ -1,11 +1,10 @@
 .comment {
-    width: 37.5rem;
+    width: 36rem;
     display: grid;
     justify-content: center;
     height: 300px;
     position: relative;
-    margin: 0 20px;
-    border: 1px solid rgb(0, 225, 255);
+    border: 1px solid rgb(55, 0, 255);
 }
 .icon {
     text-align: center;

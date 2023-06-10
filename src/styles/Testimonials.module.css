@@ -1,14 +1,15 @@
 .container {
   width: 100%;
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
 }
 .testimonials {
   position: relative;
   overflow: hidden;
   height: 380px;
-  width: 700px;
-  flex: 100%;
+  width: 90%;
+  border: 1px solid rgb(30, 255, 0);
 }
 .row {
   display: flex;
@@ -23,6 +24,7 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
+  border: 1px solid rgb(0, 217, 255);
 }
 .button {
   display: flex;
@@ -35,4 +37,9 @@
   margin: 0 5px;
 }
 
+@media (min-width: 1024px) {
+  .testimonials {
+    width: 100%;
+  }
+}
 
