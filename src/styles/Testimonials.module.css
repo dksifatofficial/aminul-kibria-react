@@ -9,7 +9,8 @@
   position: relative;
   overflow: hidden;
   height: 380px;
-  width: 90%;
+  width: 430px;
+  padding: 0 5px;
   border: 1px solid rgb(30, 255, 0);
 }
 .row {
