@@ -31,8 +31,8 @@
 }
 .aboutMeLeft .img01 {
   position: relative;
-  height: 24rem;
-  width: 23rem;
+  height: 21rem;
+  width: 20rem;
 }
 .aboutMeLeft .img02 {
   height: 200px;
@@ -73,12 +73,12 @@
   padding-top: 10px;
 }
 .success {
-  left: 0;
+  left: 1rem;
   top: 3rem;
 }
 .projects {
   bottom: 3rem;
-  right: 0;
+  right: 1rem;
 }
 
 @media (min-width: 1024px) {
