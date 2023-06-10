@@ -4,7 +4,7 @@
     flex-wrap: wrap;
 }
 .form input {
-    width: 48%;
+    width: 45%;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid #ccc;
@@ -15,7 +15,7 @@
     margin: 5px;
 }
 .form textarea {
-    width: 100%;
+    width: 94%;
     padding: 10px;
     border-radius: 10px;
     border: 1px solid #ccc;
@@ -23,4 +23,13 @@
     font-family: sans-serif;
     outline: none;
     margin: 5px 5px 10px;
+}
+
+@media (min-width: 1024px) {
+    .form input {
+        width: 45%;
+    }
+    .form textarea {
+        width: 92%;
+    }
 }

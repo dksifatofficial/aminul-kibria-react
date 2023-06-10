@@ -9,7 +9,7 @@ function Contact() {
     <div className={classes.contactContainer} id="contact">
       <img className={classes.img1} src={image1} alt="" />
       <img className={classes.img2} src={image2} alt="" />
-      <Header>
+      <Header className={classes.header}>
         <h3>Contact Me</h3>
         <h2>I Want To Hear From You</h2>
         <p>
