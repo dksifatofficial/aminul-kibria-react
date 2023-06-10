@@ -89,7 +89,7 @@ h6 a {
 }
 /*--End Basic section --*/
 .scrolled {
-  background-color: #ffffff7e;
+  background-color: #ffffff5e;
   backdrop-filter: blur(10px);
   box-shadow: 1px 1px 5px rgba(8, 3, 3, 0.11);
 }
