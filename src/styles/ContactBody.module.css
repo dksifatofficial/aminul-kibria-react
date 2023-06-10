@@ -4,12 +4,10 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  border: 1px solid rgb(17, 0, 255);
 }
 .left {
   width: 100%;
   padding: 20px;
-  border: 1px solid rgb(255, 0, 0);
 }
 .right {
   width: 100%;

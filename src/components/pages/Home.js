@@ -2,8 +2,8 @@
 // import Blog from "../Blog";
 import Contact from "../Contact";
 // import DiL from "../DiL";
-// import Map from "../Map";
-import Newsletter from "../Newsletter";
+import Map from "../Map";
+// import Newsletter from "../Newsletter";
 // import PortfolioContainer from "../PortfolioContainer";
 // import Qualitys from "../Qualitys";
 // import Services from "../Services";
@@ -23,9 +23,9 @@ function Home() {
       {/* <DiL /> */}
       {/* <Services /> */}
       {/* <Blog /> */}
-      <Newsletter />
+      {/* <Newsletter /> */}
       <Contact />
-      {/* <Map /> */}
+      <Map />
     </div>
   );
 }
