@@ -6,8 +6,8 @@ import DiL from "../DiL";
 // import Newsletter from "../Newsletter";
 // import PortfolioContainer from "../PortfolioContainer";
 // import Qualitys from "../Qualitys";
-// import Services from "../Services";
-import TestimonialContainer from "../TestimonialContainer";
+import Services from "../Services";
+// import TestimonialContainer from "../TestimonialContainer";
 // import TopContainer from "../TopContainer";
 // import TopNav from "../TopNav";
 
@@ -19,9 +19,9 @@ function Home() {
       {/* <Qualitys /> */}
       {/* <AboutMe /> */}
       {/* <PortfolioContainer /> */}
-      <TestimonialContainer />
+      {/* <TestimonialContainer /> */}
       <DiL />
-      {/* <Services /> */}
+      <Services />
       {/* <Blog /> */}
       {/* <Newsletter /> */}
       {/* <Contact /> */}

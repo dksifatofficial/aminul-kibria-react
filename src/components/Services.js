@@ -14,7 +14,7 @@ function Services() {
       <img className={classes.icon9} src={image1} alt="icon" />
       <img className={classes.icon10} src={image2} alt="icon" />
 
-      <Header>
+      <Header className={classes.header}>
         <h3>Services</h3>
         <h2>What I Do for Clients</h2>
         <p>
