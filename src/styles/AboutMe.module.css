@@ -2,7 +2,7 @@
   width: 100%;
   height: auto;
   display: grid;
-  padding: 5rem;
+  padding: 0;
 }
 .aboutMeSpan {
   width: 100%;
@@ -85,6 +85,7 @@
   .aboutMe {
     display: inline-block;
     width: 100%;
+    padding: 5rem;
   }
   .aboutMeSpan {
     width: 50%;
