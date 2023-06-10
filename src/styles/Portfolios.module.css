@@ -1,0 +1,13 @@
+.portfolios {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+@media (min-width: 1024px) {
+}
+
+@media (min-width: 1280px) {
+}

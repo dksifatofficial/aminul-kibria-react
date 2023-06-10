@@ -22,12 +22,12 @@ function TopContainer() {
           dedicated to my work.
         </p>
         <div className={classes.headerSocial}>
-          <a href="#aboutMe">
+          <a className={classes.sButton} href="#aboutMe">
             <ShutterUpButton>
               <span>About Me</span>
             </ShutterUpButton>
           </a>
-          <div>
+          <div className={classes.sIcon}>
             <Socialicon />
           </div>
         </div>

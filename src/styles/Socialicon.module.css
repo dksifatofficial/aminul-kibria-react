@@ -6,6 +6,10 @@
     left: 50%;
     transform: translate(-40%, -50%);
 } */
+.socialIcon {
+    width: 12rem;
+    margin-top: -0.7rem;
+}
 .socialIcon ul {
     width: 100%;
     display: flex;
