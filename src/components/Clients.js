@@ -1,8 +1,8 @@
 import { faQuoteLeft } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import image1 from "../assets/image/client1.jpg";
-import image2 from "../assets/image/client2.jpeg";
-import image3 from "../assets/image/client3.png";
+import image2 from "../assets/image/client2.jpg";
+import image3 from "../assets/image/client3.jpg";
 import classes from "../styles/Clients.module.css";
 import Client from "./Client";
 
