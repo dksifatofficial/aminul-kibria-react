@@ -8,7 +8,7 @@
   overflow: hidden;
   height: 380px;
   width: 700px;
-  flex: 60%;
+  flex: 100%;
 }
 .row {
   display: flex;
@@ -16,6 +16,8 @@
   transition: transform 0.5s ease;
   height: 340px;
   width: 100%;
+  display: flex;
+  justify-content: space-between;
 }
 .buttons {
   display: flex;

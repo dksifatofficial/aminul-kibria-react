@@ -9,6 +9,7 @@
 body {
   background-color: #f7fbfd;
   width: 100%;
+  transition: transform 0.5s ease;
   /* margin: -2rem 0 0 0; */
   line-height: 1.80857;
   font-weight: normal;

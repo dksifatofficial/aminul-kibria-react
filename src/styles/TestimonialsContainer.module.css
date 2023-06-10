@@ -4,6 +4,11 @@
   flex-wrap: wrap;
   margin-top: 150px;
   position: relative;
+  border: 1px solid red;
+  margin-left: -0.5rem;
+}
+.header p {
+  padding: 0 0.5rem;
 }
 .bgImg1 {
   width: 300px;
@@ -24,11 +29,34 @@
 .side {
   flex: 20%;
   position: relative;
+  display: none;
 }
 .testimonials {
   position: relative;
   overflow: hidden;
   height: 380px;
   width: 700px;
-  flex: 60%;
+  flex: 100%;
+}
+
+
+@media (min-width: 1024px) {
+  .container {
+    padding: 2rem 5rem;
+  }
+  .header p {
+    padding: 0 12rem;
+  }
+  .side {
+    display: block;
+  }
+  .testimonials {
+    flex: 60%;
+  }
+}
+
+@media (min-width: 1280px) {
+  .header p {
+    padding: 0 20rem;
+  }
 }

@@ -9,7 +9,7 @@ function TestimonialContainer() {
     <div className={classes.container}>
       <img className={classes.bgImg1} src={image1} alt="" />
       <img className={classes.bgImg2} src={image2} alt="" />
-      <Header>
+      <Header className={classes.header}>
         <h3>Testimonials</h3>
         <h2>What My Clients Say</h2>
         <p>
