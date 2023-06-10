@@ -5,18 +5,18 @@ import AboutMe from "../AboutMe";
 // import Map from "../Map";
 // import Newsletter from "../Newsletter";
 import PortfolioContainer from "../PortfolioContainer";
-// import Qualitys from "../Qualitys";
+import Qualitys from "../Qualitys";
 // import Services from "../Services";
 // import TestimonialContainer from "../TestimonialContainer";
-// import TopContainer from "../TopContainer";
-// import TopNav from "../TopNav";
+import TopContainer from "../TopContainer";
+import TopNav from "../TopNav";
 
 function Home() {
   return (
     <div>
-      {/* <TopNav /> */}
-      {/* <TopContainer /> */}
-      {/* <Qualitys /> */}
+      <TopNav />
+      <TopContainer />
+      <Qualitys />
       <AboutMe />
       <PortfolioContainer />
       {/* <TestimonialContainer /> */}
