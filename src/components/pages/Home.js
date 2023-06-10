@@ -1,7 +1,7 @@
 // import AboutMe from "../AboutMe";
-// import Blog from "../Blog";
+import Blog from "../Blog";
 // import Contact from "../Contact";
-import DiL from "../DiL";
+// import DiL from "../DiL";
 // import Map from "../Map";
 // import Newsletter from "../Newsletter";
 // import PortfolioContainer from "../PortfolioContainer";
@@ -20,9 +20,9 @@ function Home() {
       {/* <AboutMe /> */}
       {/* <PortfolioContainer /> */}
       {/* <TestimonialContainer /> */}
-      <DiL />
+      {/* <DiL /> */}
       <Services />
-      {/* <Blog /> */}
+      <Blog />
       {/* <Newsletter /> */}
       {/* <Contact /> */}
       {/* <Map /> */}

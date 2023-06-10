@@ -3,10 +3,12 @@
   display: flex;
   flex-wrap: wrap;
   padding-top: 4rem;
+  border: 1px solid red;
 }
 .bodyAll {
-  width: 33.333%;
+  width: 100%;
   padding: 1rem;
+  border: 1px solid rgb(4, 0, 255);
 }
 .cover {
   width: 100%;
@@ -40,4 +42,11 @@
 .bodyAll h4 {
   color: #252323;
   font-weight: 600;
+}
+
+@media (min-width: 1024px) {
+  .bodyAll {
+    width: 33.333%;
+    padding: 1rem;
+  }
 }
