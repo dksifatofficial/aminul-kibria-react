@@ -1,8 +1,9 @@
 .container {
-  width: 80%;
+  width: 100%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  border: 1px solid rgb(12, 12, 12);
 }
 .testimonials {
   position: relative;
