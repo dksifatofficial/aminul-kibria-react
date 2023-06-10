@@ -4,11 +4,11 @@
   position: relative;
   z-index: 1;
   margin-left: -0.5rem;
-  padding: 2rem 5rem;
+  padding: 0;
   border: 1px solid red;
 }
 .header p {
-  padding: 0 4rem;
+  padding: 0 0.5rem;
 }
 .img4 {
   height: 150px;
@@ -31,6 +31,12 @@
 }
 
 @media (min-width: 1024px) {
+  .portfilioContainer {
+    padding: 2rem 5rem;
+  }
+  .header p {
+    padding: 0 4rem;
+  }
   .img4 {
     display: block;
   }
