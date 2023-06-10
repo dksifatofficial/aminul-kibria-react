@@ -1,5 +1,5 @@
 .container {
-  width: 100%;
+  width: 80%;
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -38,6 +38,9 @@
 }
 
 @media (min-width: 1024px) {
+  .container {
+    width: 100%;
+  }
   .testimonials {
     width: 100%;
   }
