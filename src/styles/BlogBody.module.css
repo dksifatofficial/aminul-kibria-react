@@ -3,12 +3,10 @@
   display: flex;
   flex-wrap: wrap;
   padding-top: 4rem;
-  border: 1px solid red;
 }
 .bodyAll {
   width: 100%;
   padding: 1rem;
-  border: 1px solid rgb(4, 0, 255);
 }
 .cover {
   width: 100%;

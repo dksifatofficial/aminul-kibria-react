@@ -3,10 +3,10 @@ import Blog from "../Blog";
 // import Contact from "../Contact";
 // import DiL from "../DiL";
 // import Map from "../Map";
-// import Newsletter from "../Newsletter";
+import Newsletter from "../Newsletter";
 // import PortfolioContainer from "../PortfolioContainer";
 // import Qualitys from "../Qualitys";
-import Services from "../Services";
+// import Services from "../Services";
 // import TestimonialContainer from "../TestimonialContainer";
 // import TopContainer from "../TopContainer";
 // import TopNav from "../TopNav";
@@ -21,9 +21,9 @@ function Home() {
       {/* <PortfolioContainer /> */}
       {/* <TestimonialContainer /> */}
       {/* <DiL /> */}
-      <Services />
+      {/* <Services /> */}
       <Blog />
-      {/* <Newsletter /> */}
+      <Newsletter />
       {/* <Contact /> */}
       {/* <Map /> */}
     </div>

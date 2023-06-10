@@ -1,5 +1,5 @@
 .box {
-    margin: 10rem 5rem;
+    margin: 10rem 1rem 10rem 0;
     display: flex;
     flex-wrap: wrap;
     background-color: #8456f0;
@@ -29,3 +29,8 @@
     background-color: transparent;
     padding: 50px 80px 0 80px;
 }
+ @media (min-width: 1024px) {
+    .box {
+        margin: 10rem 5rem 10rem 4.5rem;
+    }
+ }
