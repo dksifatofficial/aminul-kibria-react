@@ -6,7 +6,6 @@
   position: relative;
   z-index: 1;
   margin-left: -0.5rem;
-  border: 1px solid red;
   padding: 0 0;
 }
 .header p {
@@ -28,12 +27,12 @@
 }
 .img {
   float: left;
-  width: 15%;
+  width: 10%;
 }
 .text {
   float: right;
-  width: 84%;
-  padding-left: 25px;
+  width: 90%;
+  padding-left: 20px;
 }
 .text p {
   text-align: justify;
@@ -55,6 +54,13 @@
   }
   .icon9 {
     display: block;
+  }
+  .img {
+    width: 15%;
+  }
+  .text {
+    width: 84%;
+    padding-left: 25px;
   }
 }
 @media (min-width: 1280px) {

@@ -1,25 +1,26 @@
 .serviceBox {
-    width: 100%;
-    padding: 1rem;
+  width: 100%;
+  padding: 1rem;
 }
 .service {
-    width: 100%;
-    min-height: 26rem;
-    overflow: hidden;
-    background-color: #ffffff;
-    box-shadow: 1px 5px 30px rgb(228, 226, 226);
-    border-radius: 10px;
-    padding: 50px;
+  width: 100%;
+  min-height: 26rem;
+  overflow: hidden;
+  background-color: #ffffff;
+  box-shadow: 1px 5px 30px rgb(228, 226, 226);
+  border-radius: 10px;
+  padding: 20px;
 }
 
-
 @media (min-width: 1024px) {
-    .serviceBox {
-        width: 50%;
-        padding: 1rem;
-    }
+  .serviceBox {
+    width: 50%;
+    padding: 1rem;
   }
+  .service {
+    padding: 50px;
+  }
+}
 
 @media (min-width: 1280px) {
-
-  }
+}
