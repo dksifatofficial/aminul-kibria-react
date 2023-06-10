@@ -14,7 +14,6 @@
     background-color: #ffffff;
     box-shadow: 1px 1px 5px rgba(8, 3, 3, 0.11);
 }
-
 .topMenu {
     width: 90%;
     text-align: center;
@@ -53,6 +52,9 @@
     top: 50%;
     transform: translate(50%, -50%);
     display: none;
+}
+.topMenu li a{
+    font-size: 13px;
 }
 .topMenu li a:hover {
     color: #f75023;

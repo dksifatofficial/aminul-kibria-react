@@ -52,9 +52,9 @@ function TopNav() {
           <li>
             <a href="#contact">Contact</a>
           </li>
-          <li>
+          {/* <li>
             <a href="#downloading">Download CV</a>
-          </li>
+          </li> */}
           <li>
             <Account />
           </li>
