@@ -17,6 +17,7 @@
   left: -110px;
   top: 50px;
   opacity: .3;
+  display: none;
 }
 .bgImg2 {
   width: 300px;
@@ -25,6 +26,7 @@
   right: -65px;
   bottom: -150px;
   opacity: .3;
+  display: none;
 }
 .side {
   flex: 20%;
@@ -46,6 +48,12 @@
   }
   .header p {
     padding: 0 12rem;
+  }
+  .bgImg1 {
+    display: block;
+  }
+  .bgImg2 {
+    display: block;
   }
   .side {
     display: block;
