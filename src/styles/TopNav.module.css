@@ -26,13 +26,17 @@
     right: 50%;
     top: 50%;
     transform: translate(50%, 10%);
+    border: 1px solid red;
 }
 .topMenu ul {
     margin: 0;
+    padding: 0 10px;
+    border: 1px solid rgb(0, 255, 34);
 }
 .topMenu li {
     display: inline-block;
     padding: 0 10px;
+    border: 1px solid rgb(0, 247, 255);
 }
 .topMenu li:first-child {
     position: absolute;
