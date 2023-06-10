@@ -8,7 +8,6 @@ import Client from "./Client";
 
 export function Client1() {
   return (
-    <div className={classes.container}>
     <div className={classes.comment}>
       <FontAwesomeIcon className={classes.icon} icon={faQuoteLeft} />
       <p>
@@ -24,7 +23,6 @@ export function Client1() {
           <h6>CEO of Organic Food</h6>
         </Client>
       </div>
-    </div>
     </div>
   );
 }

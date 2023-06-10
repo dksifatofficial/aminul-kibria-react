@@ -3,7 +3,6 @@
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
-  border: 1px solid rgb(12, 12, 12);
 }
 .testimonials {
   position: relative;
@@ -11,7 +10,6 @@
   height: 380px;
   width: 430px;
   padding: 0 5px;
-  border: 1px solid rgb(30, 255, 0);
 }
 .row {
   display: flex;
@@ -26,7 +24,6 @@
   display: flex;
   justify-content: center;
   margin-top: 10px;
-  border: 1px solid rgb(0, 217, 255);
 }
 .button {
   display: flex;
@@ -44,6 +41,7 @@
     width: 100%;
   }
   .testimonials {
+    padding: 0;
     width: 100%;
   }
 }

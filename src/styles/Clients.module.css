@@ -1,13 +1,9 @@
-.container {
-    
-}
 .comment {
     width: 430px;
     display: grid;
     justify-content: center;
     height: 300px;
     position: relative;
-    border: 1px solid rgb(255, 0, 0);
 }
 .icon {
     text-align: center;
@@ -35,5 +31,6 @@
     }
     .comment p {
         padding: 0 30px;
+        width: 680px;
     }
 }
