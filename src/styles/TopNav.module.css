@@ -33,13 +33,14 @@
 }
 .topMenu li {
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 10px;
 }
 .topMenu li:first-child {
     position: absolute;
     left: 40px;
     top: 65%;
     transform: translate(-50%, -50%);
+    display: none;
 }
 .topMenu li:first-child img {
     height: 25px;
@@ -51,10 +52,23 @@
     right: 10%;
     top: 50%;
     transform: translate(50%, -50%);
+    display: none;
 }
 .topMenu li a:hover {
     color: #f75023;
 }
 .topMenu li a.active {
     color: #f75023;
+}
+
+@media (min-width: 1024px) {
+    .topMenu li {
+        padding: 0 20px;
+    }
+    .topMenu li:first-child {
+        display: block;
+    }
+    .topMenu li:last-child {
+        display: block;
+    }
 }

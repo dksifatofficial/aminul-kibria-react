@@ -34,7 +34,7 @@
   font-family: Gabriola;
   font-weight: bold;
   color: #000000;
-  font-size: 5rem;
+  font-size: 3rem;
   padding: 0;
 }
 .bannerLeft h4 .cd {
@@ -103,6 +103,9 @@
     float: left;
     text-align: left;
     margin-top: 2rem;
+  }
+  .bannerLeft h1 {
+    font-size: 5rem;
   }
   .bannerLeft p {
     padding: 0;
