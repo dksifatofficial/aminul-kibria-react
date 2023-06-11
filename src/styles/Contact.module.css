@@ -1,19 +1,18 @@
 .contactContainer {
   width: 100%;
   margin-top: 130px;
-  margin-left: -0.5rem;
   position: relative;
   padding: 0 1rem;
 }
 .img1 {
   position: absolute;
-  left: -70px;
+  left: 0px;
   top: -60px;
   display: none;
 }
 .img2 {
   position: absolute;
-  right: -65px;
+  right: 0px;
   bottom: 0;
   display: none;
 }

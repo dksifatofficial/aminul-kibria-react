@@ -1,30 +1,29 @@
 .totopButton {
-    display: none;
-    position: fixed;
-    right: 10px;
-    bottom: 20px;
-    right: 0;
-    z-index: 99;
-    border: none;
-    outline: none;
-    background-color:transparent;
-    cursor: pointer;
-  }
+  display: none;
+  position: fixed;
+  right: 40px;
+  bottom: 20px;
+  right: 0;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: transparent;
+  cursor: pointer;
+}
 .totopButton::before {
-    background-color: transparent;
-  }
+  background-color: transparent;
+}
 .totopButton:hover {
-    background-color: transparent;
+  background-color: transparent;
 }
 .totopButton:hover::before {
-    background-color: transparent;
+  background-color: transparent;
 }
 .totopButton p {
-    writing-mode: vertical-lr;
-    color: #f75023;
-    font-size: 12px;
-    font-weight: normal;
-    
+  writing-mode: vertical-lr;
+  color: #f75023;
+  font-size: 12px;
+  font-weight: normal;
 }
 .topButton .icon {
   color: #f75023;

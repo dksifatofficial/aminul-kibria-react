@@ -1,6 +1,7 @@
 import image2 from "../assets/icon/icon_32.png";
 import image3 from "../assets/icon/icon_33.png";
 import image1 from "../assets/image/Banner_upDown.png";
+import image4 from "../assets/image/mm1.png";
 import classes from "../styles/TopContainer.module.css";
 import ShutterUpButton from "./ShutterUpButton";
 import Socialicon from "./Socialicon";
@@ -18,8 +19,8 @@ function TopContainer() {
           <span className={classes.bd}>Programmer</span>
         </h4>
         <p>
-          I'm also creative designer, and I'm very passionate and
-          dedicated to my work.
+          I'm also creative designer, and I'm very passionate and dedicated to
+          my work.
         </p>
         <div className={classes.headerSocial}>
           <a className={classes.sButton} href="#aboutMe">
@@ -33,6 +34,7 @@ function TopContainer() {
         </div>
       </div>
       <div className={classes.bannerRight}>
+        <img className={classes.myPic} src={image4} alt="logo" />
         <img className={classes.logoPic} src={image1} alt="logo" />
       </div>
     </div>

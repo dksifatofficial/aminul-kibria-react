@@ -1,10 +1,12 @@
 .container {
   width: 100%;
   height: auto;
-  /* margin-left: -1rem; */
+  display: grid;
+  justify-content: center;
 }
 .bannerLeft {
   width: 100%;
+  height: auto;
   float: left;
   margin-top: 6rem;
   text-align: center;
@@ -56,21 +58,23 @@
   margin-top: 2rem;
 }
 .bannerRight {
-  margin-top: 5rem;
-  background: url(../assets/image/mm1.png);
-  background-position: 5rem 2rem;
-  background-repeat: no-repeat;
-  background-size: 340px;
-  width: 50%;
-  float: left;
-  padding: 2rem 1rem;
+  margin-top: 1rem;
+  width: 100%;
+  height: 480px;
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
   position: relative;
-  display: none;
+}
+.myPic {
+  width: 340px;
+  height: 430px;
+  position: absolute;
 }
 .logoPic {
   height: 400px;
   width: 400px;
-  position: relative;
+  position: absolute;
   animation-name: logoPicture;
   animation-duration: 7s;
   animation-iteration-count: infinite;
@@ -80,15 +84,15 @@
 }
 @keyframes logoPicture {
   0% {
-    left: 50px;
+    left: 0px;
     top: 50px;
   }
   50% {
-    left: 50px;
+    left: 0px;
     top: 80px;
   }
   100% {
-    left: 50px;
+    left: 0px;
     top: 50px;
   }
 }
@@ -96,13 +100,14 @@
 @media (min-width: 1024px) {
   .container {
     padding-left: 3rem;
+    display: block;
   }
   .bannerLeft {
     width: 50%;
-    padding: 7rem 4rem 0 4rem;
+    padding: 3rem 4rem 0 4rem;
     float: left;
     text-align: left;
-    margin-top: 2rem;
+    margin-top: 5rem;
   }
   .bannerLeft h1 {
     font-size: 5rem;
@@ -118,7 +123,11 @@
     display: block;
   }
   .bannerRight {
-    display: block;
+    margin-top: 5rem;
+    display: flex;
+    width: 50%;
+    justify-content: left;
+    padding-left: 20px;
   }
   .logoPic {
     display: block;
