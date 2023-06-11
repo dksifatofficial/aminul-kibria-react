@@ -27,7 +27,7 @@ function TopNav() {
 
   return (
     <div className={classes.topNavBar}>
-      <div className={`${classes.topMenu} ${isScrolled ? "scrolled" : ""}`}>
+      <div className={`${classes.topMenu} ${isScrolled ? classes.scrolled : ""}`}>
         <ul>
           <li>
             <Link to={"https://aminulkibria.com"} target="_blank">

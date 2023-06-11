@@ -13,6 +13,7 @@
   font-size: 55px;
   text-align: center;
   padding: 0;
+  transition: 0.01s ease;
   display: none !important;
 }
 .cursor2 {

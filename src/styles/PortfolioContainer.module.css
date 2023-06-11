@@ -19,7 +19,7 @@
   height: 300px;
   width: 300px;
   position: absolute;
-  right: -4rem;
+  right: 0;
   bottom: -130px;
   z-index: -1;
   display: none;

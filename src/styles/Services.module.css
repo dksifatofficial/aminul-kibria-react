@@ -13,14 +13,14 @@
 .icon10 {
   position: absolute;
   top: -180px;
-  right: -67px;
+  right: 0;
   z-index: -1;
   display: none;
 }
 .icon9 {
   position: absolute;
   top: 100px;
-  left: -70px;
+  left: 0;
   z-index: -1;
   display: none;
 }

@@ -21,7 +21,9 @@ function TestimonialContainer() {
       <div className={classes.testimonials}>
         <Testimonials />
       </div>
-      <div className={classes.side}></div>
+      <div className={classes.side}>
+        <div className={classes.side1}></div>
+      </div>
     </div>
   );
 }

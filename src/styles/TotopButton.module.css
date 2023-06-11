@@ -1,9 +1,8 @@
 .totopButton {
   display: none;
   position: fixed;
-  right: 40px;
-  bottom: 20px;
-  right: 0;
+  bottom: 40px;
+  right: 20px;
   z-index: 99;
   border: none;
   outline: none;

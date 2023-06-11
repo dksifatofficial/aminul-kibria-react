@@ -6,13 +6,13 @@
 }
 .img1 {
   position: absolute;
-  left: 0px;
+  left: 0;
   top: -60px;
   display: none;
 }
 .img2 {
   position: absolute;
-  right: 0px;
+  right: 0;
   bottom: 0;
   display: none;
 }
