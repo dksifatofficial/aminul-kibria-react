@@ -1,12 +1,13 @@
 import { useState } from "react";
 import image1 from "../assets/image/project_001.jpg";
 import image2 from "../assets/image/project_002.jpg";
-import image3 from "../assets/image/project_003.jpg";
+import image3 from "../assets/image/project_009.jpg";
 import image4 from "../assets/image/project_004.jpg";
-import image5 from "../assets/image/project_005.jpg";
-import image6 from "../assets/image/project_006.png";
+import image5 from "../assets/image/project_010.jpg";
+import image6 from "../assets/image/project_012.jpg";
 import image7 from "../assets/image/project_007.jpg";
 import image8 from "../assets/image/project_008.jpg";
+import image9 from "../assets/image/project_011.jpg";
 import classes from "../styles/Portfolios.module.css";
 import Portfolio from "./Portfolio";
 import Popup from "./popup/Popup";
@@ -105,11 +106,11 @@ function Portfolios() {
 
       <div
         onClick={() =>
-          handlePopupToggle(<img src={image3} alt="project-img" />)
+          handlePopupToggle(<img src={image9} alt="project-img" />)
         }
       >
         <Portfolio>
-          <img className={classes.img} src={image3} alt="project-img" />
+          <img className={classes.img} src={image9} alt="project-img" />
         </Portfolio>
       </div>
 
