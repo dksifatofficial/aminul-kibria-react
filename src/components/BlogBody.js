@@ -27,7 +27,7 @@ function BlogBody() {
           <span className={classes.blogDate}>25 Jan</span>
         </div>
         <h5>Web development</h5>
-        <h4>Jim Morisson Says when the musics over turn off the light</h4>
+        <h4>Transforming Designs into Seamless User Experiences</h4>
       </div>
 
       <div
@@ -39,7 +39,7 @@ function BlogBody() {
           <span className={classes.blogDate}>27 Feb</span>
         </div>
         <h5>Branding</h5>
-        <h4>How to be appreciated for your hard work as a developer</h4>
+        <h4>Crafting Powerful Identities for Lasting Impressions</h4>
       </div>
 
       <div
@@ -51,7 +51,7 @@ function BlogBody() {
           <span className={classes.blogDate}>11 Mar</span>
         </div>
         <h5>Social Media</h5>
-        <h4>How designers and developers can collaborate better</h4>
+        <h4>Driving Engagement and Results Through Strategies</h4>
       </div>
 
       {popups.map((content, index) => (

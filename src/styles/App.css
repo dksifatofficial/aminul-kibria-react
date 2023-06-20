@@ -4,7 +4,7 @@
 
 * {
   box-sizing: border-box !important;
-  transition: all 0.5s ease;
+  /* transition: all 0.5s ease; */
 }
 
 body {
