@@ -11,12 +11,6 @@
     text-align: center;
     transition: all 1s;
 }
-.scrolled {
-    top: -20px !important;
-    background-color: #ffffff5e;
-    backdrop-filter: blur(10px);
-    box-shadow: 1px 1px 5px rgba(8, 3, 3, 0.11);
-  }
 .topMenu {
     width: 90%;
     text-align: center;
@@ -30,6 +24,12 @@
     top: 50%;
     transform: translate(50%, 0%);
 }
+.scrolled {
+    top: -20px !important;
+    background-color: #ffffff5e;
+    backdrop-filter: blur(10px);
+    box-shadow: 1px 1px 5px rgba(8, 3, 3, 0.11);
+  }
 .topMenu ul {
     margin: 0;
     padding: 0 10px;

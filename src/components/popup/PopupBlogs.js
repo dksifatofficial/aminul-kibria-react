@@ -9,26 +9,29 @@ export function PopupBlog1() {
       <div className={classes.img}>
         <img src={image1} alt="" />
       </div>
-      <h4>Jim Morisson Says when the musics over turn off the light</h4>
+      <h4>
+        Experienced Web Developer: Transforming Designs into Seamless User
+        Experiences
+      </h4>
       <h6>Web development</h6>
       <p>
-        Dizme is a leading web design agency with an award-winning design team
-        that creates innovative, effective websites that capture your brand,
-        improve your conversion rates, and maximize your revenue to help grow
-        your business and achieve your goals.
+        As a highly skilled and experienced Web developer with five years in the
+        industry, I possess a deep understanding of web technologies and a
+        proven track record of creating robust, user-friendly, and visually
+        appealing websites.
         <br />
         <br />
-        In today's digital world, your website is the first interaction
-        consumers have with your business. That's why almost 95 percent of a
-        user's first impression relates to web design. It's also why web design
-        services can have an immense impact on your company's bottom line.
+        My expertise lies in front-end development, where I excel in HTML, CSS,
+        and JavaScript frameworks such as React and Next js. I am adept at
+        transforming design concepts into fully functional websites, ensuring
+        seamless responsiveness across different devices.
         <br />
         <br />
-        That's why more companies are not only reevaluating their website's
-        design but also partnering with Kura, the web design agency that's
-        driven more than $2.4 billion in revenue for its clients. With over 50
-        web design awards under our belt, we're confident we can design a custom
-        website that drives sales for your unique business.
+        With a keen eye for detail and a strong focus on user experience, I
+        strive to deliver clean, efficient, and scalable code. My strong
+        problem-solving abilities and excellent communication skills allow me to
+        collaborate effectively with cross-functional teams to deliver
+        exceptional web solutions.
       </p>
     </div>
   );
@@ -37,29 +40,32 @@ export function PopupBlog1() {
 export function PopupBlog2() {
   return (
     <div>
-        <div className={classes.img}>
+      <div className={classes.img}>
         <img src={image2} alt="img" />
       </div>
-      <h4>How to be appreciated for your hard work as a developer</h4>
+      <h4>
+        Experienced Branding Expert: Crafting Powerful Identities for Lasting
+        Impressions
+      </h4>
       <h6>Branding</h6>
       <p>
-        Dizme is a leading web design agency with an award-winning design team
-        that creates innovative, effective websites that capture your brand,
-        improve your conversion rates, and maximize your revenue to help grow
-        your business and achieve your goals.
+        As a seasoned branding expert with five years of experience, I possess a
+        deep understanding of the intricacies involved in building and enhancing
+        brand identities. I have successfully developed and implemented
+        comprehensive branding strategies for diverse clients, ensuring their
+        unique value propositions resonate with target audiences.
         <br />
         <br />
-        In today's digital world, your website is the first interaction
-        consumers have with your business. That's why almost 95 percent of a
-        user's first impression relates to web design. It's also why web design
-        services can have an immense impact on your company's bottom line.
+        With a keen eye for aesthetics and a strong grasp of market trends, I
+        excel in creating visually captivating brand assets, including logos,
+        color palettes, and typography. Additionally, my expertise extends to
+        crafting compelling brand narratives and messaging that effectively
+        communicate clients' stories and values.
         <br />
         <br />
-        That's why more companies are not only reevaluating their website's
-        design but also partnering with Kura, the web design agency that's
-        driven more than $2.4 billion in revenue for its clients. With over 50
-        web design awards under our belt, we're confident we can design a custom
-        website that drives sales for your unique business.
+        Through meticulous research, analysis, and strategic planning, I have
+        consistently helped businesses establish strong brand presence and
+        achieve long-term growth.
       </p>
     </div>
   );
@@ -68,29 +74,34 @@ export function PopupBlog2() {
 export function PopupBlog3() {
   return (
     <div>
-        <div className={classes.img}>
+      <div className={classes.img}>
         <img src={image3} alt="img" />
       </div>
-      <h4>How designers and developers can collaborate better</h4>
+      <h4>
+        Experienced Social Media Expert: Driving Engagement and Results Through
+        Strategies
+      </h4>
       <h6>Social Media</h6>
       <p>
-        Dizme is a leading web design agency with an award-winning design team
-        that creates innovative, effective websites that capture your brand,
-        improve your conversion rates, and maximize your revenue to help grow
-        your business and achieve your goals.
+        As a seasoned Social Media expert with five years of experience, I bring
+        a wealth of knowledge and expertise in leveraging various social
+        platforms to drive engagement, reach, and conversions.
         <br />
         <br />
-        In today's digital world, your website is the first interaction
-        consumers have with your business. That's why almost 95 percent of a
-        user's first impression relates to web design. It's also why web design
-        services can have an immense impact on your company's bottom line.
+        I have successfully developed and executed comprehensive social media
+        strategies for diverse brands, harnessing the power of platforms like
+        Facebook, Instagram, Twitter, and LinkedIn. With a keen understanding of
+        target audience behavior and emerging trends, I excel in creating
+        compelling content, managing social media campaigns, and analyzing
+        performance metrics to optimize results.
         <br />
         <br />
-        That's why more companies are not only reevaluating their website's
-        design but also partnering with Kura, the web design agency that's
-        driven more than $2.4 billion in revenue for its clients. With over 50
-        web design awards under our belt, we're confident we can design a custom
-        website that drives sales for your unique business.
+        Additionally, I have a strong grasp of social media advertising,
+        influencer partnerships, and community management, enabling me to build
+        and nurture brand communities effectively. Through my strategic approach
+        and continuous monitoring, I have consistently helped brands establish a
+        strong social media presence and drive meaningful connections with their
+        audiences.
       </p>
     </div>
   );

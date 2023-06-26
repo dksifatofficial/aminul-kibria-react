@@ -40,8 +40,8 @@ export function Client2() {
       <div className={classes.auther}>
         <Client>
           <img src={image2} alt="" />
-          <h5>Kim Jianu</h5>
-          <h6>CEO of Kivaco Studio</h6>
+          <h5>Priscilla Mou</h5>
+          <h6>CEO of Kivo Studio</h6>
         </Client>
       </div>
     </div>

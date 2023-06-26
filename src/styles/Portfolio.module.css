@@ -8,6 +8,8 @@
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 1px 5px 10px rgb(206, 205, 205);
+  display: flex;
+  justify-content: center;
 }
 .body img {
   width: 600px;
