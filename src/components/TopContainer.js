@@ -15,11 +15,11 @@ function TopContainer() {
         <h3>Hello, I'm</h3>
         <h1>Aminul Kibria</h1>
         <h4>
-          A <span className={classes.cd}>Front-End Developer</span> and{" "}
-          <span className={classes.bd}>Programmer</span>
+          A <span className={classes.cd}>Full-stack Developer</span> and{" "}
+          <span className={classes.bd}>Creative Designer</span>
         </h4>
         <p>
-          I'm also creative designer, and I'm very passionate and dedicated to
+          I'm also Digital marketer and SEO specialist, and I'm very passionate and dedicated to
           my work.
         </p>
         <div className={classes.headerSocial}>

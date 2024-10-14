@@ -12,7 +12,7 @@ function AboutMe() {
         <img className={classes.img02} src={image2} alt="icon" />
 
         <div className={`${classes.success} ${classes.miniBox}`}>
-          <h2 style={{ color: "#1cbe56" }}>10</h2>
+          <h2 style={{ color: "#1cbe56" }}>04</h2>
           <h5>
             Years of
             <br />
@@ -21,7 +21,7 @@ function AboutMe() {
         </div>
 
         <div className={`${classes.projects} ${classes.miniBox}`}>
-          <h2 style={{ color: "#6e50f0" }}>1K</h2>
+          <h2 style={{ color: "#6e50f0" }}>57</h2>
           <h5>
             Total
             <br />

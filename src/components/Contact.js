@@ -13,8 +13,7 @@ function Contact() {
         <h3>Contact Me</h3>
         <h2>I Want To Hear From You</h2>
         <p>
-          Please fill out the form on this section to contact with me. Or call
-          between 9:00 a.m. and 9:00 p.m. ET, Saturday through Thursday
+          WhatsApp or mail me anytime 24 hours a day, 7 days a week to contact me.
         </p>
       </Header>
       <ContactBody />

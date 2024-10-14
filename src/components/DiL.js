@@ -18,8 +18,16 @@ function DiL() {
             </p>
           </Header>
           <div className={classes.pBars}>
-            <PercentageBar progress={95}>
+            <PercentageBar progress={92}>
               <h6>REACT</h6>
+            </PercentageBar>
+
+            <PercentageBar progress={95}>
+              <h6>Next-js</h6>
+            </PercentageBar>
+
+            <PercentageBar progress={87}>
+              <h6>Wordpress</h6>
             </PercentageBar>
 
             <PercentageBar progress={90}>
@@ -28,6 +36,14 @@ function DiL() {
 
             <PercentageBar progress={85}>
               <h6>JavaScript</h6>
+            </PercentageBar>
+
+            <PercentageBar progress={80}>
+              <h6>PHP</h6>
+            </PercentageBar>
+
+            <PercentageBar progress={82}>
+              <h6>Laravel</h6>
             </PercentageBar>
           </div>
         </div>

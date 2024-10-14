@@ -23,7 +23,7 @@ function ContactBody() {
           </div>
           <div className={classes.contactText}>
             <h3>Email</h3>
-            <p className={classes.contactEmail}>a@aminulkibria.com</p>
+            <p className={classes.contactEmail}>aminulkibria@gmail.com</p>
           </div>
         </div>
 
@@ -32,7 +32,7 @@ function ContactBody() {
           <FontAwesomeIcon className={classes.logo} icon={faPhone} color="#30c367" />
           </div>
           <div className={classes.contactText}>
-            <h3>Phone</h3>
+            <h3>WhatsApp</h3>
             <p>+880 1722 020182</p>
           </div>
         </div>

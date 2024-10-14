@@ -1,11 +1,10 @@
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import classes from "../styles/Footer.module.css";
 
 function Footer() {
   return (
     <div className={classes.footerContainer}>
-      <div className="row">
-        <div className={classes.footerLeft}>
+        <div className={classes.text}>
           <p>
             Developed with love by{" "}
             <a href="#banner">
@@ -16,21 +15,6 @@ function Footer() {
             © 2023
           </p>
         </div>
-        <div className={classes.footerRight}>
-          <ul>
-            <li>
-              <Link to="/TermsCondition">
-                <p>Terms & Condition</p>
-              </Link>
-            </li>
-            <li>
-              <Link to="/privacyPolicy">
-                <p>Privacy Policy</p>
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </div>
     </div>
   );
 }
