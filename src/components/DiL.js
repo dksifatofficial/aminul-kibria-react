@@ -45,6 +45,10 @@ function DiL() {
             <PercentageBar progress={82}>
               <h6>Laravel</h6>
             </PercentageBar>
+
+            <PercentageBar progress={94}>
+              <h6>SEO</h6>
+            </PercentageBar>
           </div>
         </div>
         <div className={classes.right}>
