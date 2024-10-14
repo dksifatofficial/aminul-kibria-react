@@ -2,7 +2,7 @@ import image1 from "../assets/icon/icon_05.png";
 import image2 from "../assets/icon/icon_15.png";
 import classes from "../styles/PortfolioContainer.module.css";
 import Header from "./Header";
-import Menu from "./Menu";
+// import Menu from "./Menu";
 import Portfolios from "./Portfolios";
 
 function PortfolioContainer() {
@@ -20,7 +20,7 @@ function PortfolioContainer() {
         </p>
       </Header>
 
-      <div className={classes.menu}>
+      {/* <div className={classes.menu}>
         <Menu>
           <li className="active">All</li>
           <li>DESIGN</li>
@@ -28,7 +28,7 @@ function PortfolioContainer() {
           <li>HTML/CSS</li>
           <li>REACT</li>
         </Menu>
-      </div>
+      </div> */}
 
       <Portfolios />
     </div>
