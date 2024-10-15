@@ -1,0 +1,22 @@
+.button {
+    position: fixed;
+    bottom: 6rem; /* Slightly above the WhatsApp button */
+    left: 2rem;
+    background-color: #0088cc; /* Telegram blue */
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.466);
+    z-index: 1000;
+    border: 2px solid wheat;
+    transition: bottom 0.3s ease, border 0.3s ease;
+  }
+  
+  .button:hover {
+    border: 2px solid rgb(97, 56, 56);
+    bottom: 6.5rem; /* Slight upward movement on hover */
+  }
+  

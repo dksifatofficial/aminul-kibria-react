@@ -8,6 +8,8 @@ import TermsCondition from "./pages/TermsCondition";
 import PublicOutlet from "./PublicOutlet";
 import Signup from "./pages/Signup";
 import Login from "./pages/Login";
+import WhatsApp from "./WhatsApp"
+import TelegramButton from "./TelegramButton";
 
 function App() {
   return (
@@ -22,10 +24,11 @@ function App() {
               <Route path="signup" element={<Signup />} />
               <Route path="login" element={<Login />} />
             </Route>
-
             <Route path="privacyPolicy" element={<Policy />} />
             <Route path="TermsCondition" element={<TermsCondition />} />
           </Routes>
+          <TelegramButton />
+          <WhatsApp />
         </Layout>
         </AuthProvider>
       </Router>
