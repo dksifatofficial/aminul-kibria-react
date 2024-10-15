@@ -1,7 +1,7 @@
 .button {
     position: fixed;
-    bottom: 6rem; /* Slightly above the WhatsApp button */
-    left: 2rem;
+    bottom: 70px; /* Slightly above the WhatsApp button */
+    left: 10px;
     background-color: #0088cc; /* Telegram blue */
     border-radius: 50%;
     height: 50px;
@@ -17,6 +17,6 @@
   
   .button:hover {
     border: 2px solid rgb(97, 56, 56);
-    bottom: 6.5rem; /* Slight upward movement on hover */
+    bottom: 75px; /* Slight upward movement on hover */
   }
   
